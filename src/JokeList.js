@@ -64,9 +64,11 @@ class JokeList extends Component {
 	render() {
 		if (this.state.loading) {
 			return (
-				<div>
-					<div className="loader" />
-					<h1>Loading... Please wait</h1>
+				<div id="loader">
+					<span />
+					<span />
+					<span />
+					<span />
 				</div>
 			);
 		}
